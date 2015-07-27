@@ -1,6 +1,6 @@
 {
   "name": "deep-trim-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursively String.trim() object properties of type String.",
   "keywords": [
     "deep",
