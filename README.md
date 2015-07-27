@@ -9,7 +9,7 @@ Recursively `String.trim()` object properties of type String.
 
 ## Installation
 
-`npm install deep-freeze-node`
+`npm install deep-trim-node`
 
 ## Usage Example
 
