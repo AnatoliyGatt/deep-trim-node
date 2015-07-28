@@ -2,13 +2,13 @@
 ==================
 
 * Updated README.md
-* Update index.js documentation comments
-* Update deep-trim.js documentation comments
+* Updated index.js documentation comments
+* Updated deep-trim.js documentation comments
 
 1.0.4 / 2015-07-27
 ==================
 
-* Update deep-trim.js documentation comments
+* Updated deep-trim.js documentation comments
 
 1.0.3 / 2015-07-27
 ==================
