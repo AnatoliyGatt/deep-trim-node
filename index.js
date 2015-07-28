@@ -11,8 +11,8 @@
 
 /**
  * @public
- * @description Expose function to recursively trim object properties of type {String}.
- * @returns {Function} - Function to recursively trim object properties of type {String}.
+ * @description Expose function to trim object properties of type {String}.
+ * @returns {Function} - Function to trim object properties of type {String}.
  */
 
 module.exports = require("./lib/deep-trim");
