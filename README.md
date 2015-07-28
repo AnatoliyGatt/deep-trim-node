@@ -7,6 +7,8 @@ Recursively `String.trim()` object properties of type String.
 [![License][license]][license-url]
 [![Travis Build][travis-image]][travis-url]
 
+[![NPM Statistics][npm-statistics-image]][npm-url]
+
 ## Installation
 
 `npm install deep-trim-node`
@@ -68,3 +70,4 @@ Distributed under the [MIT License](LICENSE).
 [license-url]: https://github.com/AnatoliyGatt/deep-trim-node/blob/master/LICENSE
 [travis-image]: https://img.shields.io/travis/AnatoliyGatt/deep-trim-node/master.svg
 [travis-url]: https://travis-ci.org/AnatoliyGatt/deep-trim-node
+[npm-statistics-image]: https://nodei.co/npm/deep-trim-node.png?downloads=true&downloadRank=true&stars=true
