@@ -27,7 +27,7 @@ var person = {
         city: "Los Angeles",
         country: " USA   "
     },
-    cars: [
+    vehicles: [
         "   BMW",
         "Ferrari    ",
         "Lamborghini"
@@ -51,7 +51,7 @@ console.log(person);
         city: "Los Angeles", 
         country: "USA" 
     },
-    cars: [
+    vehicles: [
         "BMW",
         "Ferrari",
         "Lamborghini"
