@@ -26,7 +26,12 @@ var person = {
         street: "1st Street",
         city: "Los Angeles",
         country: " USA   "
-    }
+    },
+    cars: [
+        "   BMW",
+        "Ferrari    ",
+        "Lamborghini"
+    ]
 };
 
 person = trim(person);
@@ -45,7 +50,12 @@ console.log(person);
         street: "1st Street", 
         city: "Los Angeles", 
         country: "USA" 
-    } 
+    },
+    cars: [
+        "BMW",
+        "Ferrari",
+        "Lamborghini"
+    ]
 }
 ```
 
