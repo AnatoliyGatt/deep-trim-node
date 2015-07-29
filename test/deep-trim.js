@@ -83,7 +83,7 @@ describe("deep-trim", function() {
                     city: "Los Angeles",
                     country: " USA   "
                 },
-                cars: [
+                vehicles: [
                     "   BMW",
                     "Ferrari    ",
                     "Lamborghini"
@@ -101,7 +101,7 @@ describe("deep-trim", function() {
                     city: "Los Angeles",
                     country: "USA"
                 },
-                cars: [
+                vehicles: [
                     "BMW",
                     "Ferrari",
                     "Lamborghini"
