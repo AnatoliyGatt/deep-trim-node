@@ -41,7 +41,7 @@ console.log(person);
 
 ***
 
-```
+```javascript
 { 
     name: "John",
     surname: "Johnson",
