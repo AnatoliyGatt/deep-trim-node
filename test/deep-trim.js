@@ -86,7 +86,7 @@ describe("deep-trim", function() {
                 cars: [
                     "   BMW",
                     "Ferrari    ",
-                    "   Lamborghini    "
+                    "Lamborghini"
                 ]
             };
 
