@@ -72,5 +72,43 @@ describe("deep-trim", function() {
 
             assert.deepEqual(person, expectedPerson, "object and its nested objects strings should be trimmed, ignoring all non-string property values");
         });
+
+        it("should trim all strings within object and its nested objects, including nested arrays", function() {
+            var person = {
+                name: "   John   ",
+                surname: "Johnson   ",
+                age: 26,
+                address: {
+                    street: "1st Street",
+                    city: "Los Angeles",
+                    country: " USA   "
+                },
+                cars: [
+                    "   BMW",
+                    "Ferrari    ",
+                    "   Lamborghini    "
+                ]
+            };
+
+            person = trim(person);
+
+            var expectedPerson = {
+                name: "John",
+                surname: "Johnson",
+                age: 26,
+                address: {
+                    street: "1st Street",
+                    city: "Los Angeles",
+                    country: "USA"
+                },
+                cars: [
+                    "BMW",
+                    "Ferrari",
+                    "Lamborghini"
+                ]
+            };
+
+            assert.deepEqual(person, expectedPerson, "object and its nested objects strings, including nested arrays strings, should be trimmed");
+        });
     });
 });
