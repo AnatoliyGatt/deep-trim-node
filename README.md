@@ -2,12 +2,12 @@
 
 Recursively `String.trim()` object properties of type String.
 
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![License][license]][license-url]
-[![Travis Build][travis-image]][travis-url]
+[![NPM Package Version][npm-package-version-badge]][npm-package-url]
+[![NPM Package License][npm-package-license-badge]][npm-package-license-url]
+[![NPM Package Downloads][npm-package-downloads-badge]][npm-package-url]
+[![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
 
-[![NPM Statistics][npm-statistics-image]][npm-url]
+[![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
 ## Installation
 
@@ -72,12 +72,16 @@ $ npm test
 
 Distributed under the [MIT License](LICENSE).
 
-[npm-image]: https://img.shields.io/npm/v/deep-trim-node.svg
-[npm-url]: https://npmjs.org/package/deep-trim-node
-[downloads-image]: https://img.shields.io/npm/dm/deep-trim-node.svg
-[downloads-url]: https://npmjs.org/package/deep-trim-node
-[license]: https://img.shields.io/npm/l/deep-trim-node.svg
-[license-url]: https://github.com/AnatoliyGatt/deep-trim-node/blob/master/LICENSE
-[travis-image]: https://img.shields.io/travis/AnatoliyGatt/deep-trim-node/master.svg
-[travis-url]: https://travis-ci.org/AnatoliyGatt/deep-trim-node
-[npm-statistics-image]: https://nodei.co/npm/deep-trim-node.png?downloads=true&downloadRank=true&stars=true
+[npm-package-url]: https://npmjs.org/package/deep-trim-node
+
+[npm-package-version-badge]: https://img.shields.io/npm/v/deep-trim-node.svg
+
+[npm-package-license-badge]: https://img.shields.io/npm/l/deep-trim-node.svg
+[npm-package-license-url]: http://opensource.org/licenses/MIT
+
+[npm-package-downloads-badge]: https://img.shields.io/npm/dm/deep-trim-node.svg
+
+[travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/deep-trim-node.svg
+[travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/deep-trim-node
+
+[npm-package-statistics-badge]: https://nodei.co/npm/deep-trim-node.png?downloads=true&downloadRank=true&stars=true
