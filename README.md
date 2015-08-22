@@ -98,6 +98,9 @@ Distributed under the [MIT License](LICENSE).
 [code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/deep-trim-node.svg?style=flat-square
 [code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/deep-trim-node
 
+[code-climate-test-coverage-status-badge]: https://img.shields.io/codeclimate/coverage/github/AnatoliyGatt/deep-trim-node.svg?style=flat-square
+[code-climate-test-coverage-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/deep-trim-node/coverage
+
 [inch-ci-documentation-coverage-status-badge]: https://inch-ci.org/github/AnatoliyGatt/deep-trim-node.svg?style=flat-square
 [inch-ci-documentation-coverage-status-page-url]: https://inch-ci.org/github/AnatoliyGatt/deep-trim-node
 
