@@ -6,40 +6,40 @@
 1.0.7 / 2015-07-29
 ==================
 
-* Updated README.md
+* Update README.md
 
 1.0.6 / 2015-07-29
 ==================
 
-* Updated README.md
-* Updated deep-trim.js tests
+* Update README.md
+* Update deep-trim.js tests
 
 1.0.5 / 2015-07-28
 ==================
 
-* Updated README.md
-* Updated index.js documentation comments
-* Updated deep-trim.js documentation comments
+* Update README.md
+* Update index.js documentation comments
+* Update deep-trim.js documentation comments
 
 1.0.4 / 2015-07-27
 ==================
 
-* Updated deep-trim.js documentation comments
+* Update deep-trim.js documentation comments
 
 1.0.3 / 2015-07-27
 ==================
 
-* Updated package.json
+* Update package.json
 
 1.0.2 / 2015-07-27
 ==================
 
-* Updated package on NPM
+* Update package on NPM
 
 1.0.1 / 2015-07-27
 ==================
 
-* Fixed critical mistakes in README.md
+* Fix critical mistakes in README.md
 
 1.0.0 / 2015-07-27
 ==================
