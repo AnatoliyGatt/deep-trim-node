@@ -1,4 +1,4 @@
-# deep-trim for Node.js
+![deep-trim-node Logo][logo]
 
 Recursively `String.trim()` object properties of type String.
 
@@ -77,6 +77,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/xWko5nsF0i.png
 
 [npm-package-url]: https://npmjs.org/package/deep-trim-node
 
