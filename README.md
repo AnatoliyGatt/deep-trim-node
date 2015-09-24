@@ -22,21 +22,21 @@ Recursively `String.trim()` object properties of type String.
 ## Usage Example
 
 ```javascript
-var trim = require("deep-trim-node");
+var trim = require('deep-trim-node');
 
 var person = {
-    name: "   John   ",
-    surname: "Johnson   ",
+    name: '   John   ',
+    surname: 'Johnson   ',
     age: 26,
     address: {
-        street: "1st Street",
-        city: "Los Angeles",
-        country: " USA   "
+        street: '1st Street',
+        city: 'Los Angeles',
+        country: ' USA   '
     },
     vehicles: [
-        "   BMW",
-        "Ferrari    ",
-        "Lamborghini"
+        '   BMW',
+        'Ferrari    ',
+        'Lamborghini'
     ]
 };
 
@@ -49,18 +49,18 @@ console.log(person);
 
 ```javascript
 { 
-    name: "John",
-    surname: "Johnson",
+    name: 'John',
+    surname: 'Johnson',
     age: 26,
     address: { 
-        street: "1st Street", 
-        city: "Los Angeles", 
-        country: "USA" 
+        street: '1st Street', 
+        city: 'Los Angeles', 
+        country: 'USA' 
     },
     vehicles: [
-        "BMW",
-        "Ferrari",
-        "Lamborghini"
+        'BMW',
+        'Ferrari',
+        'Lamborghini'
     ]
 }
 ```
