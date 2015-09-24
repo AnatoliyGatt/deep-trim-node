@@ -42,7 +42,7 @@ describe('deep-trim', function() {
                 }
             };
 
-            assert.deepEqual(person, expectedPerson, 'object and it\'s nested objects strings should be trimmed');
+            assert.deepEqual(person, expectedPerson, 'object and its nested objects strings should be trimmed');
         });
 
         it('should trim all strings within object and its nested objects, ignoring all non-string property values', function() {
