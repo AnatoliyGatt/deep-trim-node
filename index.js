@@ -7,7 +7,7 @@
  * @license MIT
  */
 
-"use strict";
+'use strict';
 
 /**
  * @public
@@ -15,4 +15,4 @@
  * @returns {Function} - Function to trim object properties of type {String}.
  */
 
-module.exports = require("./lib/deep-trim");
+module.exports = require('./lib/deep-trim');
