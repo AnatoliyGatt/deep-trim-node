@@ -1,7 +1,7 @@
 var assert = require('assert');
 var trim = require('../lib/deep-trim');
 
-describe('deep-trim', function() {
+describe('deep-trim', function () {
     describe('init', function() {
         it('should trim all strings within object', function() {
             var person = {
