@@ -3,7 +3,7 @@ var trim = require('../lib/deep-trim');
 
 describe('deep-trim', function () {
     describe('init', function () {
-        it('should trim all strings within object', function() {
+        it('should trim all strings within object', function () {
             var person = {
                 name: '   John   ',
                 surname: 'Johnson   '
@@ -19,7 +19,7 @@ describe('deep-trim', function () {
             assert.deepEqual(person, expectedPerson, 'object strings should be trimmed');
         });
 
-        it('should trim all strings within object and its nested objects', function() {
+        it('should trim all strings within object and its nested objects', function () {
             var person = {
                 name: '   John   ',
                 surname: 'Johnson   ',
@@ -45,7 +45,7 @@ describe('deep-trim', function () {
             assert.deepEqual(person, expectedPerson, 'object and its nested objects strings should be trimmed');
         });
 
-        it('should trim all strings within object and its nested objects, ignoring all non-string property values', function() {
+        it('should trim all strings within object and its nested objects, ignoring all non-string property values', function () {
             var person = {
                 name: '   John   ',
                 surname: 'Johnson   ',
@@ -73,7 +73,7 @@ describe('deep-trim', function () {
             assert.deepEqual(person, expectedPerson, 'object and its nested objects strings should be trimmed, ignoring all non-string property values');
         });
 
-        it('should trim all strings within object and its nested objects, including nested arrays', function() {
+        it('should trim all strings within object and its nested objects, including nested arrays', function () {
             var person = {
                 name: '   John   ',
                 surname: 'Johnson   ',
