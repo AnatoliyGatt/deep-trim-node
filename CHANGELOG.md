@@ -1,3 +1,17 @@
+1.1.1 / 2015-10-27
+==================
+
+* Fix anonymous functions declaration coding style in deep-trim.js tests
+* Fix anonymous function declaration coding style in deep-trim.js
+* Fix 'for statement' coding style in deep-trim.js
+* Fix 'else-if statement' coding style in deep-trim.js
+* Fix 'if statements' coding style in deep-trim.js
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update .travis.yml to run tests against node v4.1.0
+
 1.1.0 / 2015-10-02
 ==================
 
