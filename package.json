@@ -6,6 +6,7 @@
     "deep",
     "object",
     "string",
+    "properties",
     "trim",
     "recursive",
     "node"
