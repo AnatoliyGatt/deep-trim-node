@@ -4,11 +4,11 @@
   "description": "Recursively String.trim() object properties of type String.",
   "keywords": [
     "deep",
+    "recursive",
     "object",
     "string",
     "properties",
     "trim",
-    "recursive",
     "node"
   ],
   "homepage": "https://github.com/AnatoliyGatt/deep-trim-node",
