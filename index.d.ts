@@ -1,5 +1,3 @@
-declare interface DeepTrim {
-  <T extends object>(input: T): T;
-}
-
-export = DeepTrim;
+declare function deepTrim<T extends object>(input: T): T;
+declare namespace deepTrim {}
+export = deepTrim;
